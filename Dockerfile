@@ -1,4 +1,4 @@
-FROM node:latest as ui
+FROM node:11 as ui
 RUN npm install -g gulp browserify babelify
 COPY ui/package.json /tmp/
 COPY ui/semantic.json /tmp/

@@ -1,6 +1,8 @@
 # Docker Demo Application
 This is a Go demo application used for demonstrating Docker and load balancing.
 
+This application is created by Evan Hazlett (ehazlett/docker-demo).
+
 ## Environment Variables
 
 - `TITLE`: sets title in demo app
